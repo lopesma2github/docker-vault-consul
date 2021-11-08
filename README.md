@@ -11,7 +11,7 @@ How to use docker-compose to spin up a Vault instance backed by Consul.
 
 2. When done:      `docker-compose down`
 
-Data will be persisted in the `_data` folder.
+Data will be persisted in the `consul/data` folder.
 
 
 #### Subsequent Runs
