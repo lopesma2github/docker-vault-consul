@@ -2,18 +2,14 @@
 
 How to use docker-compose to spin up a Vault instance backed by Consul.
 
-A full description can be found on my website: https://www.marcolancini.it/2017/blog-vault/
-
-![Vault UI](https://www.marcolancini.it/images/posts/blog_vault_2.jpg)
-
 
 ## Usage
 
 #### First Run
 
-1. Start services: `docker-compose up`
-2. Init vault:     `./_scripts/setup.sh`
-3. When done:      `docker-compose down`
+1. Start services: `docker-compose -f docker-compose.yml up -d --build`
+
+2. When done:      `docker-compose down`
 
 Data will be persisted in the `_data` folder.
 
@@ -26,11 +22,11 @@ Data will be persisted in the `_data` folder.
 
 #### Backup
 
-1. Start services: `docker-compose up`
-2. Run backup:     `_scripts/backup.sh`
+1. Start services: `docker-compose -f docker-compose.yml up -d --build`
+2. Run backup:     `vault/scripts/backup.sh`
 
 
 #### Remove all data
 
 1. Stop services: `docker-compose down --volumes`
-2. Clear persisted data: `_scripts/clean.sh`
+2. Clear persisted data: `vault/scripts/clean.sh`
