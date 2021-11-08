@@ -17,7 +17,7 @@ Data will be persisted in the `consul/data` folder.
 #### Subsequent Runs
 
 1. Start services: `docker-compose up`
-2. Unseal vault:   `_scripts/unseal.sh`
+2. Unseal vault:   `vault/scripts/unseal.sh`
 
 
 #### Backup
