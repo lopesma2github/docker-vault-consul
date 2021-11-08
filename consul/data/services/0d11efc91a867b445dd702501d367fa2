@@ -1,1 +1,0 @@
-{"Token":"","Service":{"ID":"vault:127.0.0.1:8200","Service":"vault","Tags":["active","initialized"],"Address":"127.0.0.1","Meta":{"external-source":"vault"},"Port":8200,"EnableTagOverride":false,"ProxyDestination":"","Connect":{"Native":false,"Proxy":null},"CreateIndex":0,"ModifyIndex":0}}
