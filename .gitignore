@@ -1,0 +1,4 @@
+.DS_Store
+./backup
+./consul/data
+./vault/data/keys.txt
