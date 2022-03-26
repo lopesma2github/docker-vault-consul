@@ -1,5 +1,5 @@
 # base image
-FROM alpine:3.14
+FROM alpine:latest
 
 # set vault version
 ENV VAULT_VERSION 1.8.2
