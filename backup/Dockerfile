@@ -1,4 +1,4 @@
-FROM golang
+FROM golang:1.22rc2-bookworm
 
 # Get Dependencies
 RUN go get -v github.com/hashicorp/consul/api
